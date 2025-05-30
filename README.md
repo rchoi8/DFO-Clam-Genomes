@@ -1,10 +1,10 @@
-# DFO-Clam-Genomes
+## Comparative Genomics, Transcriptomics, and Evolutionary Analysis of Three Marine Bivalves
 
-## Project Partners
+### Project Partners
 * University of Guelph
 * Fisheries and Oceans Canada Bedford Institute of Oceanography
 
-## Project Description
+### Project Description
 This project aims to compare genome assemblies and annotations among three species of marine bivalve, including the Arctic Surfclam, Greenland Cockle, and Northern Propeller Clam. Tissue samples were provided by the Department of Fisheries and Oceans Maritimes Region and industry partners, which were then sequenced by the [Canadian Biogenomes Project](https://earthbiogenome.ca/).  
 
 Phase 1 of this project has several objectives:  
