@@ -1,3 +1,13 @@
+## ---------------------------
+## Summarizing Unclassified Repeat Element Hits
+
+## Purpose: This script summarizes unclassified transposable element (TE) hits from an Earl Grey GFF3 output, cross-referencing them with unclassified consensus sequence names from a FASTA file. It outputs a CSV file with counts, base coverage, and size statistics for each TE family.
+
+## Author: Rebecca Choi
+## Date Created: July 18, 2025
+
+## ---------------------------
+
 library(styler)
 library(tidyverse)
 
@@ -50,5 +60,6 @@ te_summary <- gff2 %>%
   arrange(desc(total_bases))
 
 write_csv(te_summary,"arcticsurfclam_unclassified_stats.csv")
+
 
 
