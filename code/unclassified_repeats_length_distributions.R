@@ -1,8 +1,8 @@
 library(styler)
 library(tidyverse)
 
-gff3_file <- "C:/Users/PC/Documents/DFO/repetitive_elements/Arctic_Surf_Clam_Cleaned.out.gff3"
-fa_file   <- "C:/Users/PC/Documents/DFO/repetitive_elements/arcticsurfclam_unclassified_seqs.fa"
+gff3_file <- "../repetitive_elements/Arctic_Surf_Clam_Cleaned.out.gff3"
+fa_file   <- "../repetitive_elements/arcticsurfclam_unclassified_seqs.fa"
 
 #Obtain TE family names in FASTA headers of the unclassified TE sequences
 unclassified <- read_lines(fa_file) %>%
@@ -50,4 +50,5 @@ te_summary <- gff2 %>%
   arrange(desc(total_bases))
 
 write_csv(te_summary,"arcticsurfclam_unclassified_stats.csv")
+
 
