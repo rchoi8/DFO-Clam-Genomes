@@ -29,3 +29,18 @@ Initial search space (Z):              20795  [actual number of targets]
 Domain search space  (domZ):               2  [number of targets reported over threshold]
 # CPU time: 0.54u 0.22s 00:00:00.76 Elapsed: 00:00:00.32
 # Mc/sec: 6244.83
+
+
+#Propeller clam
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (108 residues searched)
+Target model(s):                       20795  (3450268 nodes)
+Passed MSV filter:                       264  (0.0126954); expected 415.9 (0.02)
+Passed bias filter:                      218  (0.0104833); expected 415.9 (0.02)
+Passed Vit filter:                        17  (0.000817504); expected 20.8 (0.001)
+Passed Fwd filter:                         4  (0.000192354); expected 0.2 (1e-05)
+Initial search space (Z):              20795  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.28u 0.18s 00:00:00.46 Elapsed: 00:00:00.28
+# Mc/sec: 1318.45
