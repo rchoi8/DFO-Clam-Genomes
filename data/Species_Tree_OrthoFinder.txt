@@ -1,0 +1,124 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=22;
+	taxlabels
+	Aplysia_californica
+	Argopecten_irradians
+	Crassostrea_virginica
+	Cyrtodaria_siliqua
+	Daphnia_pulex
+	Dreissena_polymorpha
+	Liolophura_sinensis
+	Littorina_saxatilis
+	Mactromeris_polynyma
+	Mercenaria_mercenaria
+	Mizuhopecten_yessoensis
+	Mya_arenaria
+	Mytilus_edulis
+	Mytilus_galloprovincialis
+	Octopus_bimaculoides
+	Pictodentalium_vernedei
+	Potamilus_streckersoni
+	Ruditapes_philippinarum
+	Saccostrea_echinata
+	Serripes_groenlandicus
+	Sinanodonta_woodiana
+	Siphonodentalium_dalli
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Daphnia_pulex:0.414671,(Octopus_bimaculoides[&!color=#ff0066]:0.459923,(Liolophura_sinensis[&!color=#ff9900]:0.340931,(((Siphonodentalium_dalli:0.278916,Pictodentalium_vernedei:0.202252)[&Mollusca=1,!hilight={2,0.10417999999999994,#ffffcc}]:0.176474,(Aplysia_californica:0.356855,Littorina_saxatilis:0.311995)[&Mollusca=1,!hilight={2,0.06699100000000002,#ccff99}]:0.135724)[&Mollusca=1]:0.026579,(((Sinanodonta_woodiana:0.038317,Potamilus_streckersoni:0.035147)[&Mollusca=1]:0.240714,(((Dreissena_polymorpha:0.164699,Mya_arenaria:0.14547)[&Mollusca=1]:0.083178,(Mactromeris_polynyma:0.154184,(Mercenaria_mercenaria:0.053837,Ruditapes_philippinarum:0.073095)[&Mollusca=1]:0.060816)[&Mollusca=1]:0.045385)[&Mollusca=1]:0.048165,(Cyrtodaria_siliqua:0.164,Serripes_groenlandicus:0.240108)[&Mollusca=0.71]:0.02583)[&Mollusca=1]:0.15735)[&Mollusca=1,!hilight={9,0.0,#99ccff}]:0.080407,((Argopecten_irradians[&!color=#000000]:0.057333,Mizuhopecten_yessoensis[&!color=#000000]:0.061549)[&Mollusca=1,!color=#000000]:0.233988,((Mytilus_galloprovincialis[&!color=#000000]:0.004355,Mytilus_edulis[&!color=#000000]:0.004439)[&Mollusca=1,!color=#000000]:0.286591,(Saccostrea_echinata[&!color=#000000]:0.068844,Crassostrea_virginica[&!color=#000000]:0.082214)[&Mollusca=1,!color=#000000]:0.233167)[&Mollusca=1,!color=#000000]:0.037124)[&Mollusca=1,!color=#000000,!hilight={6,0.10035399999999983,#ccccff}]:0.08094)[&Mollusca=1]:0.05235)[&Mollusca=1]:0.054265)[&Mollusca=1]:0.068877)[&Mollusca=1,!hilight={21,0.0,#f0f0f0}]:0.414671);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="Mollusca";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Mollusca";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=971;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=0.25;
+	set scaleAxis.minorTicks=0.05;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=false;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.2;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=16;
+	set tipLabels.fontStyle=1;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=false;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
