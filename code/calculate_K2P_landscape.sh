@@ -1,9 +1,7 @@
 #!/bin/bash
 #--------------------------------------------------------------
 ## Calculate Kimura Divergence (K2P) for Unclassified Repeats
-##
 ## Purpose: This script extracts all RepeatMasker alignment entries corresponding to "Unknown" repeats and generates divergence summaries and a repeat landscape plot.
-##
 ## Author: Rebecca Choi
 ## Date Created: June 2025
 #--------------------------------------------------------------
