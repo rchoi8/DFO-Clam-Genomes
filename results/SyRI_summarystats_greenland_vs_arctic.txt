@@ -1,0 +1,22 @@
+#SyRI (Synteny and Rearrangement Identifier) summary statistics of top 10 scaffolds between Serripes groenlandicus (reference) and Arctic surfclam (query)
+
+#Structural annotations
+#Variation_type	Count	Length_ref	Length_qry
+Syntenic regions	38	75063	74868
+Inversions	17	448094416	132363566
+Translocations	292	342197	342828
+Duplications (reference)	443	643475	-
+Duplications (query)	756	-	648468
+Not aligned (reference)	707	750989250	-
+Not aligned (query)	1102	-	216015519
+
+
+#Sequence annotations
+#Variation_type	Count	Length_ref	Length_qry
+SNPs	0	0	0
+Insertions	2	-	2452
+Deletions	1	2290	-
+Copygains	0	-	0
+Copylosses	0	0	-
+Highly diverged	42	448003505	132276384
+Tandem repeats	0	0	0
