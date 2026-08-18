@@ -24,8 +24,8 @@ N="${1:-20}" # Number of top scaffolds to retain, default to 20 if no value is p
 PAIR="${2:-20}" # Number of scaffold pairs to analyze, default to 20 if no value is provided
 THREADS="${3:-8}" # Number of threads, default to 8 if no value is provided
 
-RUN="${REF_LABEL}*vs*${QRY_LABEL}_top${N}*pair${PAIR}" # Build run name from genome labels, scaffold count, and pair count
-OUTDIR="RUN*${RUN}"
+RUN="${REF_LABEL}_vs_${QRY_LABEL}_top${N}_pair${PAIR}" # Build run name from genome labels, scaffold count, and pair count
+OUTDIR="RUN_${RUN}"
 mkdir -p "$OUTDIR"
 cd "$OUTDIR"
 
