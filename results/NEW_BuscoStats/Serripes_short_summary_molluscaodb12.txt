@@ -1,0 +1,30 @@
+# BUSCO version is: 6.1.0 
+# The lineage dataset is: mollusca_odb12 (Creation date: 2026-05-22, number of genomes: 36, number of BUSCOs: 4421)
+# Summarized benchmarking in BUSCO notation for file /mnt/sda/CanadaBiogenomes/GreenCockle/Genome/GCA_031761405.1_xbSerGroe1_p1.0_genomic.fna
+# BUSCO was run in mode: euk_genome_min
+# Gene predictor used: miniprot
+
+	***** Results: *****
+
+	C:96.8%[S:94.1%,D:2.7%],F:1.2%,M:2.0%,n:4421,E:12.1%	   
+	4279	Complete BUSCOs (C)	(of which 517 contain internal stop codons)		   
+	4159	Complete and single-copy BUSCOs (S)	   
+	120	Complete and duplicated BUSCOs (D)	   
+	53	Fragmented BUSCOs (F)			   
+	89	Missing BUSCOs (M)			   
+	4421	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	1780	Number of scaffolds
+	9288	Number of contigs
+	1759664326	Total length
+	0.085%	Percent gaps
+	91 Mbp	Scaffold N50
+	331 kbp	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.4
+	bbtools: None
+	miniprot_index: 0.18-r281
+	miniprot_align: 0.18-r281
